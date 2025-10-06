@@ -1,0 +1,101 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jul 31 11:28:09 2025
+# Process ID: 11698
+# Current directory: /home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex
+# Command line: vivado -notrace -source /home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1_ex.tcl
+# Log file: /home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/vivado.log
+# Journal file: /home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/vivado.jou
+# Running On: daqmwpc4.kek.jp, OS: Linux, CPU Frequency: 2500.000 MHz, CPU Physical cores: 6, Host memory: 33538 MB
+#-----------------------------------------------------------
+start_gui
+source /home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1_ex.tcl -notrace
+INFO: [open_example_project] Creating new example project...
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.3 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.3/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.1 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/xilinx/Vivado/2023.1/data/ip'.
+create_project: Time (s): cpu = 00:00:39 ; elapsed = 00:00:17 . Memory (MB): peak = 7994.047 ; gain = 400.000 ; free physical = 7606 ; free virtual = 27446
+INFO: [open_example_project] Loading IP Catalog...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/ip'.
+INFO: [open_example_project] Importing original IP ...
+INFO: [open_example_project] Generating the example project IP ...
+INFO: [IP_Flow 19-1706] Not generating 'Instantiation Template' target for IP 'gig_ethernet_pcs_pma_1'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'gig_ethernet_pcs_pma_1'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Simulation' target for IP 'gig_ethernet_pcs_pma_1'. Target already exists and is up to date.
+INFO: [IP_Flow 19-1706] Not generating 'Implementation' target for IP 'gig_ethernet_pcs_pma_1'. Target already exists and is up to date.
+INFO: [open_example_project] Adding example synthesis HDL files ...
+INFO: [open_example_project] Adding example XDC files ...
+INFO: [open_example_project] Adding simulation HDL files ...
+INFO: [open_example_project] Rebuilding top IP...
+INFO: [exportsim-Tcl-40] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-72] Using boost library from '/home/xilinx/Vivado/2023.1/tps/boost_1_72_0'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XSIM" (Xilinx Vivado Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/xilinx/Vivado/2023.1/data/xsim'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/xsim/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/xsim/configure_gt.tcl'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "MODELSIM" (Siemens ModelSim Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/modelsim'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/modelsim/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/modelsim/configure_gt.tcl'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "QUESTA" (Siemens Questa Advanced Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/questa'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/questa/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/questa/configure_gt.tcl'
+INFO: [exportsim-Tcl-5] Generating 3-step script for 'xcelium'. To create a single-step script, use the -single_step switch.
+INFO: [exportsim-Tcl-35] Exporting simulation files for "XCELIUM" (Cadence Xcelium Parallel Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/xcelium'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/xcelium/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/xcelium/configure_gt.tcl'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "VCS" (Synopsys Verilog Compiler Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/vcs'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/vcs/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/vcs/configure_gt.tcl'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "RIVIERA" (Aldec Riviera-PRO Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/riviera'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/riviera/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/riviera/configure_gt.tcl'
+INFO: [exportsim-Tcl-35] Exporting simulation files for "ACTIVEHDL" (Aldec Active-HDL Simulator)...
+INFO: [exportsim-Tcl-29] Pre-compiled simulation library path: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.cache/compile_simlib/activehdl'
+INFO: [exportsim-Tcl-29] Script generated: '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/activehdl/gig_ethernet_pcs_pma_1.sh'
+INFO: [SIM-utils-43] Exported '/home/hamada/K_Pro/firmware/AUM_kintex7/Secondary_7S_LVDS_heart/gig_ethernet_pcs_pma_1_ex/gig_ethernet_pcs_pma_1_ex.ip_user_files/sim_scripts/gig_ethernet_pcs_pma_1/activehdl/configure_gt.tcl'
+INFO: [open_example_project] Open Example Project completed
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul 31 11:30:05 2025...
