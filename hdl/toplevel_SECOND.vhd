@@ -615,8 +615,8 @@ attribute mark_debug of pulseTx : signal is "true";
       -- System ports -----------------------------------------------------------
       rst           => mikumari_reset,
       pwrOnRst      => pwr_on_reset,
-      clkSer_TX        => clk_fast_TX,
-      clkSer_RX        => clk_fast_RX,
+      clkSerTx         => clk_fast_TX,
+      clkSerRx         => clk_fast_RX,
       clkPar        => clk_slow,
       clkIndep      => clk_gbe,
       clkIdctrl     => clk_idelay_REFCLK,
@@ -628,6 +628,7 @@ attribute mark_debug of pulseTx : signal is "true";
       RXP           => MIKUMARI_RXP,
       RXN           => MIKUMARI_RXN,
       modClk        => mod_clk,
+      txBeat        => open,
 
       -- CBT ports ------------------------------------------------------------
       laneUp        => cbt_lane_up,
@@ -641,8 +642,13 @@ attribute mark_debug of pulseTx : signal is "true";
       serdesOffset  => serdesOffset,
       firstBitPatt  => open,
 
-      CNTVALUEOUTInit => CNTVALUEOUTInit_level0,
-      CNTVALUEOUT_slaveInit => CNTVALUEOUT_slaveInit_level0,
+      cntValueOutInit      => CNTVALUEOUTInit_level0,
+      cntValueOutSlaveInit => CNTVALUEOUT_slaveInit_level0,
+
+      reqIdelayShift => "00",
+      reqShutOffOut => open,
+      shutOffAckIn => '0',
+      delayPerTap => open,
 
       -- Mikumari ports -------------------------------------------------------
       linkUp        => mikumari_link_up,
@@ -771,6 +777,7 @@ attribute mark_debug of pulseTx : signal is "true";
     heartbeatCount    => heartbeatCount,
     hbfNumber         => hbfNumber,
     hbfNumMismatch    => hbfNumMismatch,
+    clkDiv16          => open,
     
   -- DAQ I/F --
     hbfCtrlGateIn     => '0',
@@ -821,15 +828,15 @@ u_LaccpMainBlock : entity mylib.LaccpMainBlock
     -- RCAP
     idelayTapIn       => idelayTapIn,
     serdesLantencyIn  => serdesOffset,
-    CNTVALUEOUTInitIn => CNTVALUEOUTInit_level1,
-    CNTVALUEOUT_slaveInitIn => CNTVALUEOUT_slaveInit_level1,    
+    cntValueInitIn    => CNTVALUEOUTInit_level1,
+    cntValueSlaveInitIn => CNTVALUEOUT_slaveInit_level1,    
     idelayTapOut      => idelayTapOut,
     serdesLantencyOut => serdesLantencyOut,
-    CNTVALUEOUTInitOut => CNTVALUEOUTInitOut,
-    CNTVALUEOUT_slaveInitOut => CNTVALUEOUT_slaveInitOut,
-    round_trip_time   => round_trip_time,    
-    CalibDelay        => CalibDelay,
-    CalibDelay_Out    => CalibDelay_Out,        
+    cntValueInitOut   => CNTVALUEOUTInitOut,
+    cntValueSlaveInitOut => CNTVALUEOUT_slaveInitOut,
+    roundTripTime     => round_trip_time,    
+    calibDelay        => CalibDelay,
+    calibDelayOut     => CalibDelay_Out,        
     hbuIsSyncedIn     => isSynchronized,
     syncPulseIn       => heartbeatOut,
     syncPulseOut      => syncPulseOut,
