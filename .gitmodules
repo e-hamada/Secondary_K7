@@ -1,10 +1,10 @@
 [submodule "hdl/mikumari"]
 	path = hdl/mikumari
-	url = git@github.com:kpro-j2/mikumari.git
+	url = https://github.com/RyotaroHonda/mikumari.git
 
 [submodule "hdl/laccp"]
 	path = hdl/laccp
-    url = git@github.com:kpro-j2/laccp.git
+	url = https://github.com/RyotaroHonda/LACCP.git
 
 [submodule "SiTCP_Netlist_for_Artix7"]
 	path = SiTCP_Netlist_for_Artix7
